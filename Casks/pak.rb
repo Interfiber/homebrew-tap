@@ -5,6 +5,6 @@ cask "pak" do
     name "Pretzel"
     homepage "https://interfiber.github.io/pretzel"
   
-    depends_on "lua"
+    depends_on formula: "lua"
     pkg "Pak.Installer.pkg"
  end
