@@ -9,5 +9,5 @@ cask "pak" do
     depends_on formula: "lua"
     pkg "Pak.Installer.pkg"
 
-    uninstall pkgutil: ["dev.interfiber.pak.PakCore"]
+    uninstall delete: ["/Users/Shared/pak"]
  end
